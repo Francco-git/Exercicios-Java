@@ -1,0 +1,51 @@
+package Primeiro;
+
+import java.util.Scanner;
+
+public class Exercicio0909Laçoderepetiçao {
+
+	public static void main(String[] args) {
+		float n1,n2,n3;
+		
+		Scanner leitura	 = new Scanner(System.in);
+		System.out.println("Entre com o primeiro numero: ");
+		n1 = leitura.nextFloat();
+		System.out.println("Entre com o segundo numero: ");
+		n2 = leitura.nextFloat();
+		System.out.println("Entre com o terceiro numero: ");
+		n3 = leitura.nextFloat();
+		
+		 if (n1>n2 && n1>n3);
+		  if (n1<n2 && n1<n3);
+		 {
+		System.out.println(n1+" O maior é : "+ n2+ "," +n3);
+		System.out.println(n1+" O menor é : "+ n2+ "," +n3);
+
+		 }
+
+		 if (n2>n1 && n2>n3);
+		  if (n2<n1 && n2<n3);
+
+		 {
+		System.out.println(n2+" O maior é : "+ n1+ "," +n3);
+		System.out.println(n2+" O menor é : "+ n1+ "," +n3);
+
+		 }
+		 if (n3>n1 && n3>n2);
+		  if (n3<n1 && n3<n3);
+
+		 {
+				System.out.println(n3+" O maior é : "+ n2+ "," +n3);
+				System.out.println(n3+" O menor é : "+ n2+ "," +n3);
+
+
+		 }
+		
+		
+
+	
+
+
+	}
+
+}

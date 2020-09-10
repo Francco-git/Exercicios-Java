@@ -1,0 +1,31 @@
+package Primeiro;
+
+import java.util.Scanner;
+
+public class Exercicios_05_100920 {
+
+	public static void main(String[] args) {
+		
+		int numero=0;
+		
+		Scanner entrada	 = new Scanner(System.in);
+		System.out.println("Escreva um numero .. ou 0 para encerrar:" );
+		
+		numero = entrada.nextInt();
+		
+		do {
+			 if(numero==0) {
+				 numero++;
+			 }
+			
+			 
+			 System.out.println("Escreva um numero..:");
+				numero = entrada.nextInt();
+				 
+		}
+
+             while (numero==0);
+
+	}
+
+}
