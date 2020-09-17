@@ -30,8 +30,8 @@ public class Vendedor_160920 extends Pessoa_160920
 	}
 	public void ValordeVendas() 
 	{
-		double X =  getValordeVendas() * (getComissao()/100);
-		System.out.println("A sua Comissão é:"+X);
+		double ValordeVendas = Comissao * (20/100);
+		System.out.println("A sua Comissão é:"+ValordeVendas);
 
 		
 	}
