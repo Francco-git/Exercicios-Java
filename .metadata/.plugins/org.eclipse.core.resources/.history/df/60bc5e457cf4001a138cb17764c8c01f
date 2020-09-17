@@ -1,0 +1,26 @@
+package Primeiro;
+
+public class Exercicio_03_110920 {
+
+	public static void main(String[] args) {
+		
+		int linha, coluna, contador=0;
+		int[][] matriz = new int[3][3];
+
+	    for( linha=0; linha<6; linha++ )
+	    {
+	        for( coluna=0; coluna<3; coluna++ )
+	        {
+	        System.out.printf("Digite o valor de [%d][%d] = ", linha+1, coluna+1);
+	        System.out.printf("%d", matriz[linha][coluna]);
+	           if( matriz[linha][coluna] > 10 )
+	               contador++;
+	        }
+	    }
+	    System.out.printf("\n\nA matriz possui %d numeros maiores que 10.\n\n", contador);
+	    
+	
+
+	}
+
+}

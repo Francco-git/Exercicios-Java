@@ -1,0 +1,9 @@
+package Orientaçãoaoobjeto;
+
+public class Fornecedor_160920 extends Pessoa_160920
+{
+		private double valorcredito;
+		private double valordivida;
+		
+		 
+}

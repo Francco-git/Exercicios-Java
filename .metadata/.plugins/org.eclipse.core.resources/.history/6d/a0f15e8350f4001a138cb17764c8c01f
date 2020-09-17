@@ -1,0 +1,39 @@
+package Primeiro;
+
+import java.util.Scanner;
+
+public class Exercicos_02_110920 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner entrada = new Scanner (System.in);
+		int numeros []= new int[6];
+		int cont;
+		int somapar=0,somaimpar=0;
+		
+		for (cont=0;cont<6;cont++) {
+			System.out.println("Digite um numero" );
+			numeros[cont]= entrada.nextInt();
+			if(numeros[cont]%2==0) {
+				somapar = somapar+numeros[cont];
+				
+				
+			}
+			
+			else { 
+				
+				System.out.println(numeros[cont]);
+				
+			somaimpar = somaimpar+numeros[cont];
+			}
+			
+			
+		}
+		
+		
+		
+
+	}
+
+}

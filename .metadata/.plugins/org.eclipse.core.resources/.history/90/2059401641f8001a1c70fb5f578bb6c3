@@ -1,0 +1,10 @@
+package Orientaçãoaoobjeto;
+
+public class Teste_Fornecedor_160920 {
+
+	public static void main(String[] args) {
+		Pessoa_160920 Alex = new Pessoa_160920 ("Alex")
+
+	}
+
+}

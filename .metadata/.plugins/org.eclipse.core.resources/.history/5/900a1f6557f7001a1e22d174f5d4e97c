@@ -1,0 +1,10 @@
+package Orientaçãoaoobjeto;
+
+public class bagagemAviao {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

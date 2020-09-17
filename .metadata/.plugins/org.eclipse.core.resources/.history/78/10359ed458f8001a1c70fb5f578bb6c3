@@ -1,0 +1,15 @@
+package Projeto;
+
+public class Projeto {
+
+	public static void main(String[] args) {
+		System.out.println("\nBem Vindo a Pizzaria Genetation!!!");
+		System.out.println("\nPor gentileza, escolha um de nossos sabores...");
+		System.out.println("\n1- Mussarela R$29,90 ");
+		System.out.println("\n2- Calabresa R$29,90 ");
+		System.out.println("\n3- Frango com catupiry R$29,90");
+		System.out.println("\n4- Marguerita R$29,90 ");
+		System.out.println("\n5- Portuguesa R$29,90 ");
+	}
+
+}

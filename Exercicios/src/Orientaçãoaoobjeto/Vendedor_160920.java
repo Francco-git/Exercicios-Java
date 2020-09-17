@@ -1,0 +1,40 @@
+package Orientaçãoaoobjeto;
+
+public class Vendedor_160920 extends Pessoa_160920 
+{
+	private double ValordeVendas;
+	private double Comissao;
+	
+	public Vendedor_160920 (String nome,String endereço,String telefone,String Cpf,String Rg,double ValordeVendas,double Comissao) 
+	{
+	
+		super (nome,endereço,telefone,Cpf,Rg);
+		this.Comissao = Comissao;
+		this.ValordeVendas = ValordeVendas;
+	}
+
+	public double getValordeVendas() {
+		return ValordeVendas;
+	}
+
+	public void setValordeVendas(double valordeVendas) {
+		ValordeVendas = valordeVendas;
+	}
+
+	public double getComissao() {
+		return Comissao;
+	}
+
+	public void setComissao(double comissao) {
+		Comissao = comissao;
+	}
+	public void ValordeVendas() 
+	{
+		double Comissao = ValordeVendas * 100/20;
+		System.out.println("A sua Comissão é:"+Comissao);
+
+		
+	}
+
+	
+}   

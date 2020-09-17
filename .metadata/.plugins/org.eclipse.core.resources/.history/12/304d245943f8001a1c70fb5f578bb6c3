@@ -1,0 +1,16 @@
+package Orientaçãoaoobjeto;
+
+public class Teste_Fornecedor_160920  { 
+
+	public static void main(String[] args) {
+		
+		Pessoa_160920 Weslley = new Pessoa_160920 ("Wesley","Rua Floribella","123456789","124587946" ,"264718593");
+		Pessoa_160920 Alex = new Pessoa_160920 ("Alex","Rua Marola","1234584689","1258767946" ,"264757654593");
+		Pessoa_160920 Matheus = new Pessoa_160920 ("Matheus","Rua circo","14876584689","59879767946" ,"26470644593");
+
+		Weslley.imprimirInfo();
+		Alex.imprimirInfo();
+		Matheus.imprimirInfo();
+	}
+
+}

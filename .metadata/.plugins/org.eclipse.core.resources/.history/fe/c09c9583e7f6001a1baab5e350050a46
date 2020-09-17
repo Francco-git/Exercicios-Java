@@ -1,0 +1,13 @@
+package Orientaçãoaoobjeto;
+
+public class Humor {
+	public static void main (String args[]) 
+	{
+		Cliente humor1 = new Cliente("Elza","Paulo","Marcela");
+		System.out.println(humor1.getHumorClientes());
+	}
+	
+	
+	
+
+}

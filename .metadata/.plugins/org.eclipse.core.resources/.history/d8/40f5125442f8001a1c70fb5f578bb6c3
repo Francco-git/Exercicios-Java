@@ -1,0 +1,38 @@
+package Orientaçãoaoobjeto;
+
+public class Fornecedor_160920 extends Pessoa_160920
+{
+		private double valorcredito;
+		private double valordivida;
+		
+		public Fornecedor_160920(double valorcredito,double valordivida,String nome,String endereço,String telefone,String Cpf,String Rg) 
+		{
+			super (nome,endereço,telefone,Cpf,Rg); 
+			this.valorcredito=valorcredito;
+			this.valordivida=valordivida;
+			
+		}
+		public void imprimirInfo (){
+		    System.out.println("\nNome do fornecedor: "+getNome()+"\n"+"Cpf: "+getCpf()+"\nTelefone: "+getTelefone()+"\n"+"Endereço: "+getEndereço()+"\nValor crédito: "+valorcredito+"\nValor dívida: "+valordivida);
+		}
+		
+		
+		public double getValorcredito() {
+			return valorcredito;
+		}
+
+		public void setValorcredito(double valorcredito) {
+			this.valorcredito = valorcredito;
+		}
+
+		public double getValordivida() {
+			return valordivida;
+		}
+
+		public void setValordivida(double valordivida) {
+			this.valordivida = valordivida;
+		}
+		
+		
+		
+}

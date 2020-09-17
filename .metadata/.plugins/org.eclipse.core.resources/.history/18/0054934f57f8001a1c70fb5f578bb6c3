@@ -1,0 +1,15 @@
+package Projeto;
+
+public class Projeto {
+
+	public static void main(String[] args) {
+		System.out.println("\nMenu de opções");
+		System.out.println("\n1- Somar as duas matrizes ");
+		System.out.println("\n2- Subtrair a primeira matriz da segunda ");
+		System.out.println("\n3- Adicionar uma constante as duas matrizes");
+		System.out.println("\n4- Imprimir as matrizes ");
+		System.out.println("\n5- Sair do sistema ");
+		System.out.println("\nDigite a sua opção: ");
+	}
+
+}
