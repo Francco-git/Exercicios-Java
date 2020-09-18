@@ -35,10 +35,10 @@ public class Cadastro {
 	
 	public void Cadastro() 
 	{
-		System.out.println("Insira o seu telefone");
+		System.out.println("INSIRA O SEU TELEFONE:");
 		setTelefone(ler.nextInt());
-		System.out.println("Insira o seu endereço");
-		setEndereço(ler.nextLine());
+		System.out.println("INSIRA O SEU ENDEREÇO:");
+		setEndereço(ler.next());
 
 	}
 	
